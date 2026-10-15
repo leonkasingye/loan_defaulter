@@ -1,1 +1,31 @@
+# Virtual environment
 venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Data (never commit datasets)
+data/*.csv
+data/*.zip
+data/*.xlsx
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Model artifacts (we'll generate these later)
+outputs/*.pkl
+outputs/*.joblib
+outputs/*.png
